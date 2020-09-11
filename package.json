@@ -1,0 +1,15 @@
+{
+  "name": "nh-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/t6tg/nh-bot",
+  "author": "thanawatgulati <thanawatgulatijames@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
