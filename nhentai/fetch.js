@@ -14,7 +14,7 @@ const data = (message, code) => {
       const exampleEmbed = {
         color: 0xd41717,
         title: name,
-        url: "https://discord.js.org",
+        url: `https://nhentai.net/g/${code}`,
         author: {
           name: "nHentai",
           icon_url:

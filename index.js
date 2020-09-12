@@ -17,12 +17,15 @@ client.on("message", async (message) => {
   const args = message.content.slice(prefix.length).trim().split(" ");
   const command = args.shift().toLowerCase();
   console.log(args[0]);
-  if (command === "n" && args[0] != null) {
+  if (command === "ns" && args[0] != null) {
     try {
       data(message, args[0]);
     } catch (error) {
       console.log(error);
     }
+  } else if (command === "h") {
+    const mh = "!ns code [ search from hentai ]";
+    message.reply(mh);
   }
 });
 
